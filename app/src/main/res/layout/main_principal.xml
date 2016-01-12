@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingTop="10dp"
+              android:background="@drawable/fondo_azul"
+              >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_aplicacion"
+            android:layout_gravity="center"
+            style="@style/Titulo"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp"
+            >
+
+
+            <ImageButton
+                android:id="@+id/imgbtn_restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/restaurante"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+            <ImageButton
+                android:id="@+id/imgbtn_bed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/bed"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+
+            <ImageButton
+                android:id="@+id/imgbtn_compras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/compras"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+
+            <ImageButton
+                android:id="@+id/imgbtn_ocio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/ocio"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+            <ImageButton
+                android:id="@+id/imgbtn_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/information"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+
+            <ImageButton
+                android:id="@+id/imgbtn_culture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/culture"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+
+            <ImageButton
+                android:id="@+id/imgbtn_invisible2"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/ocio"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+            <ImageButton
+                android:id="@+id/imgbtn_dest_turisticos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/turismo"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+            <ImageButton
+                android:id="@+id/imgbtn_invisible"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:src="@drawable/information"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circulo"/>
+
+        </LinearLayout>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/copiright"
+        android:gravity="bottom|center"
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>

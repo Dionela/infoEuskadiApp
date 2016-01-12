@@ -1,0 +1,91 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.engivi.enric.recursos_euskadi"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@mipmap/ic_launcher"
+                 android:supportsRtl="true"
+                 android:theme="@style/AppTheme">
+
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".PrincipalActivity"
+            android:screenOrientation="portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RestaurantesActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".AlojamientosActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".ComprasActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".PatrimonioActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".OcioActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".TurismoActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".OficinaTurismoActivity"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".DetalleActivityRestaurante"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".DetalleActivityAlojamientos"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".DetalleActivityCompras"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".DetalleActivityPatrimonio"
+                  android:screenOrientation="portrait"
+            />
+        <activity android:name=".DetalleActivityOficinaTurismo"
+                  android:screenOrientation="portrait"
+            />
+        <activity android:name=".DetalleActivityOcio"
+                  android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".DetalleActivityTurismo"
+                  android:screenOrientation="portrait"
+            />
+
+
+
+    </application>
+
+</manifest>

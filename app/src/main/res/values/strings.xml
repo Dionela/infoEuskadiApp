@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">infoEuskadi</string>
+    <string name="nombre_aplicacion">infoEuskadi</string>
+    <string name="cargando">Cargando...</string>
+    <string name="noResultados">No se han encontrado resultados</string>
+    <string name="noMapaResultado">No se ha podido ubicar el recurso</string>
+    <string name="noInternet">La red no está disponible o cualquier otro problema se ha producido !</string>
+    <string name="alerta">Alerta! La ubicacion puede no ser correcta en algunos casos.</string>
+    <string name="copiright">App designed by Enric Gimeno (engivi1@gmail.com). App icon by icons8 and iconsmind.\n
+    http://icons8.com \t \t http://www.iconsmind.com.\n Datasets by http://opendata.euskadi.eus/</string>
+
+
+
+    <!-- Campos para la vista detalle -->
+    <string name="nombre"><u>Nombre:</u></string>
+    <string name="descripcion"><u>Descripción:</u></string>
+    <string name="tipo"><u>Tipo:</u></string>
+    <string name="direccion"><u>Dirección:</u></string>
+    <string name="telefono"><u>Teléfono:</u></string>
+    <string name="web"><u>Web:</u></string>
+    <string name="accessibilidad"><u>Accessibilidad:</u></string>
+    <string name="ubicacion"><u>Ubicación:</u></string>
+</resources>
